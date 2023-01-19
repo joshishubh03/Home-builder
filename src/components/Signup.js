@@ -1,23 +1,12 @@
 import React from 'react'
-
+import "./ModalCss/style.css";
 const Signup = () => {
   return (
     <div>
-    <section className="ftco-section">
-      <div className="container">
-        <div className="row justify-content-center js-fullheight">
-          <div className="col-md-6 text-center d-flex align-items-center">
-            <div className="wrap w-100">
-              <h2 className="mb-2">Modal 05</h2>
-              <button type="button" className="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#exampleModalCenter">
+               <button type="button" className="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#exampleModalCenter">
                 Launch Modal 05
               </button>
-              {/* Modal */}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     <div className="modal fade" id="exampleModalCenter" tabIndex={-1} role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
